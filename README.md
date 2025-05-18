@@ -34,11 +34,11 @@ Build a RESTful API where you can:
   "name": "Robert C. Martin",
   "nationality": "USA"
 }
-
+```
 
 ---
 
-## 🔧 Features You Should Implement
+## 🔧 Features 
 
 | Function              | Endpoint                       | Method |
 | --------------------- | ------------------------------ | ------ |
