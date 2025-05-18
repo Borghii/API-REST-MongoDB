@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: api-rest
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: root
+      password: test
+      database: library
+      authentication-database: admin
+      auto-index-creation: true

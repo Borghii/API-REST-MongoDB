@@ -6,10 +6,14 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - mongodb_data:/data/db
+      - mongodb-library:/data/db
+
     environment:
-      MONGO_INITDB_ROOT_USERNAME:
-      MONGO_INITDB_ROOT_PASSWORD:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: test
+
+
 volumes:
-  mongodb_data:
+  mongodb-library:
+    external: true
 # to access -> docker exec -it 273 mongosh "mongodb://user:password@localhost:27017"
