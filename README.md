@@ -34,9 +34,7 @@ Build a RESTful API where you can:
   "name": "Robert C. Martin",
   "nationality": "USA"
 }
-```
 
-> You can use a simple relationship: a `Book` references an `Author` using `authorId`.
 
 ---
 
